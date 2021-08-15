@@ -117,7 +117,7 @@ jobs:
       working-directory: python-dist
     - name: Archive python-dist
       run:  >
-        tar -czvf python-dist-arena-robot-${GITHUB_REF##*/}-all.tar.gz -C python-dist .
+        tar -czvf python-dist-axidraw_taxi-${GITHUB_REF##*/}-all.tar.gz -C python-dist .
     - name: SHA256 files
       run: find . -type f -name "*.tar.gz" -exec sha256sum {} \;
     - name: Release

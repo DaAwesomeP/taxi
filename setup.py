@@ -5,7 +5,8 @@ import setuptools
 readme = (pathlib.Path(__file__).parent / "README.md").read_text(encoding="utf-8")
 
 setuptools.setup(
-    name="axidraw-taxi",
+    name="taxi",
+    version="0.1.0a0",
     description="Opinionated Axidraw interface",
     long_description=readme,
     long_description_content_type="text/markdown",
